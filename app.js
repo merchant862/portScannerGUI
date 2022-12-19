@@ -1,6 +1,7 @@
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
+var morgan = require('morgan');
 var helmet = require('helmet')
 
 var indexRouter = require('./routes/index');
